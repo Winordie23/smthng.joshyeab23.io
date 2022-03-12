@@ -1,0 +1,50 @@
+body{
+    background: rgb(198,67,173);
+    background: linear-gradient(0deg, rgba(198,67,173,1) 35%, rgba(253,233,45,1) 100%) ;
+    
+}
+div{
+    margin: 150px;
+    margin-left: 450px;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 550px;
+}
+.logDiv{
+  
+    background: url('login.png') no-repeat;
+   
+}
+.logLabel{
+    color: white;
+    padding-left: 150px;
+    padding-bottom: 80px;
+    text-align: center;
+    text-shadow: 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputField{
+    flex-direction: row;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    width: 350px;
+}
+nav {
+    display: inline-block;
+    border: blue 1px solid;
+    text-align: center;
+    font-size: 18px;
+    background-color: cadetblue;
+    color: blue;
+    padding: 10px;
+    -webkit-box-shadow: 7px 26px 28px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 26px 28px 14px rgba(0,0,0,0.75);
+box-shadow: 7px 26px 28px 14px rgba(0,0,0,0.75);
+margin: 30px;
+}
